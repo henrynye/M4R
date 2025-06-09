@@ -1,0 +1,18 @@
+{
+    "aces": [
+        "31",
+        "10"
+    ],
+    "double_faults": [
+        "1",
+        "2"
+    ],
+    "win_1st_serve": [
+        "77",
+        "72"
+    ],
+    "break_point_conversions": [
+        "20",
+        "60"
+    ]
+}

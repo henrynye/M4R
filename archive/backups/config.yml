@@ -1,0 +1,29 @@
+BACKUP_PATH: backups
+MATCH_CHARTING_LAST_CLONED: 2025-01-22
+MATCH_CHARTING_LOCAL: match_charting/
+MATCH_CHARTING_URL: https://github.com/JeffSackmann/tennis_MatchChartingProject
+MODEL:
+  INPUTS:
+  - estimated_distance
+  - loose_parcel_flag
+  - multidrops
+  - flats
+  - estates
+  - new_courier
+  - courier_transport_type_moped
+  - courier_transport_type_ebike
+  NAME: route_duration
+  PIPELINE:
+  - name: scaler
+    params:
+      with_mean: true
+      with_std: true
+    type: StandardScaler
+  - name: model
+    params:
+      copy_X: true
+      fit_intercept: true
+      normalize: false
+    type: LinearRegression
+  TARGET: new_detour_adjusted_duration
+  VERSION: v0.1

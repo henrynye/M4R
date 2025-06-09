@@ -1,0 +1,26 @@
+
+    var fullname = 'Kyu Tae Im';
+    var lastname = 'Im';
+    var currentrank=1382;
+    var peakrank=160;
+    var peakfirst=20091109;
+    var peaklast=20091109;
+    var dob=19810106;
+    var ht=185;
+    var hand='R';
+    var country='KOR';
+    var shortlist=5;
+    var careerjs=1;
+    var active=1;
+    var lastdate=0;
+    var ychoices=["Time Span", "Last 52", "Career", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2004", "2003", "2002"];
+var tchoices=["Event", "All", "Davis Cup", "Alessandria CH", "Aptos CH", "Astana CH", "Auckland", "Australian Open", "Bangkok CH", "Baton Rouge CH", "Binghamton CH", "Bukhara CH", "Burnie CH", "Busan CH", "Chennai", "Chuncheon CH", "Dallas CH", "Fergana CH", "Granby CH", "Honolulu CH", "Indian Wells Masters", "Kaohsiung CH", "Khorat CH", "Kyoto CH", "Leon CH", "Lexington CH", "Manta CH", "Mexico City CH", "Moncton CH", "Noumea CH", "Rimouski CH", "Roland Garros", "Samarkand CH", "San Jose", "Seoul CH", "Shanghai Masters", "St. Remy CH", "Sydney", "Szczecin CH", "Tallahassee CH", "Tarzana CH", "Tokyo", "Toyota CH", "US Open", "Vancouver CH", "Wimbledon", "Yokohama CH"];
+var cchoices=["vs Country", "All", "ARG", "AUS", "AUT", "BEL", "BLR", "CAN", "CHN", "CRO", "CZE", "ECU", "ESP", "FIN", "FRA", "GBR", "GER", "GRE", "INA", "IND", "ISR", "ITA", "JPN", "KAZ", "KOR", "LTU", "MAS", "MEX", "NED", "NOR", "NZL", "PAK", "PHI", "POL", "ROU", "RSA", "RUS", "SLO", "SRB", "SUI", "SVK", "SWE", "THA", "TPE", "TUR", "UKR", "USA", "UZB"];
+var rchoices=["as Rank", "All"];
+var ochoices=["Go Soeda", "Tatsuma Ito", "Takao Suzuki", "Greg Jones", "Aqeel Khan", "Ti Chen", "Nick Lindahl", "Ivo Klec", "Igor Kunitsyn", "Harri Heliovaara", "Denis Istomin", "Blaz Kavcic", "Xavier Malisse", "Vincent Millot", "Stefan Koubek", "Shao Xuan Zeng", "Sebastian Decoud", "Rik De Voest", "Ricardas Berankis", "Prakash Amritraj", "Peter Polansky", "Mikhail Kukushkin", "Michal Przysiezny", "Michael Russell", "Marco Crugnola", "Marco Chiudinelli", "John Paul Fruttero", "Jan Mertl", "Jae Sung An", "Ilija Bozoljac", "Hyung Taik Lee", "Harel Levy", "Giovanni Lapentti", "Daniel Gimeno Traver", "Daniel Garza", "Daniel Brands", "Danai Udomchoke", "Catalin Gard", "Brendan Evans", "Arnau Brugues Davi", "Aisam Ul Haq Qureshi", "Yuichi Sugita", "Young Jun Kim", "Yen Hsun Lu", "Woong Sun Jun", "Wayne Odesnik", "Victor Bruthans", "Vasilis Mazarakis", "Uladzimir Ignatik", "Todd Widom", "Tim Smyczek", "Tasuku Iwami", "Suwandi Suwandi", "Stian Boretti", "Somdev Devvarman", "Scoville Jenkins", "Scott Oudsema", "Ryler Deheart", "Ruben Ramirez Hidalgo", "Rohan Bopanna", "Phillip Simmonds", "Peerakiat Siriluethaiwattana", "Pavel Snobel", "Paul Baccanello", "Nikola Mektic", "Nikita Kryvonos", "Naveen Sai", "Nathan Healey", "N Sriram Balaji", "Mikhail Ledovskikh", "Michael Yani", "Martin Slanar", "Martin Fischer", "Marsel Ilhan", "Mark Nielsen", "Marcus Sarstrand", "Mao Xin Gong", "Lukasz Kubot", "Luka Gregorc", "Ladislav Chramosta", "Koki Matsunaga", "Kevin Kim", "Karol Beck", "Kamil Capkovic", "John Van Lottum", "John Isner", "Jimmy Wang", "Jesse Huta Galung", "Izak Van Der Merwe", "Ivo Minar", "Ivan Sergeyev", "Hiroyasu Ehara", "Hee Sung Chung", "Guillermo Garcia Lopez", "Gouichi Motomura", "Giancarlo Petrazzuolo", "George Bastl", "Frank Dancevic", "Florian Mayer", "Farrukh Dustov", "Fabio Fognini", "Donald Young", "Dominik Meffert", "Diego Alvarez", "Dick Norman", "Denis Matsukevitch", "Denis Kudla", "Dekel Valtzer", "Dawid Olejniczak", "Daniel Evans", "Chris Guccione", "Cecil Mamiit", "Brydan Klein", "Boris Pashanski", "Bobby Reynolds", "Bjorn Phau", "Andrew Roberts", "Andrei Pavel", "Andreas Beck", "Alex Bogomolov Jr", "Alex Bogdanovic", "Adam Jaya"];
+var matchmx = [["20110509", "Busan CH", "Hard", "C", "L", "622", "", "", "R16", "6-1 6-3", "3", "Tatsuma Ito", "130", "3", "", "R", "19880518", "", "JPN", "1", "98", "2", "3", "78", "40", "21", "15", "8", "13", "19", "1", "1", "57", "35", "21", "14", "8", "7", "9"],
+          ["20110509", "Busan CH", "Hard", "C", "W", "622", "", "", "R32", "6-3 6-1", "3", "Harri Heliovaara", "316", "", "", "R", "19890604", "", "FIN", "1", "70", "3", "1", "40", "25", "24", "8", "8", "0", "0", "1", "7", "51", "29", "18", "7", "8", "6", "10"],
+          ["20110516", "Fergana CH", "Hard", "C", "L", "579", "", "", "R32", "6-7(5) 6-1 6-3", "3", "Greg Jones", "272", "6", "", "R", "19890131", "190", "AUS", "1", "131", "3", "3", "97", "69", "48", "10", "14", "11", "16", "10", "5", "89", "56", "44", "19", "14", "6", "7"],
+          ["20110708", "Davis Cup G2 R2: KOR vs PAK", "Hard", "D", "W", "477", "", "", "RR", "6-2 6-4 6-2", "5", "Aqeel Khan", "UNR", "", "", "R", "19800130", "", "PAK", "1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+          ["20110711", "Aptos CH", "Hard", "C", "L", "474", "", "", "R32", "6-3 1-0 RET", "3", "Igor Kunitsyn", "62", "1", "", "R", "19810930", "180", "RUS", "1", "40", "0", "2", "30", "18", "12", "4", "5", "0", "2", "4", "0", "36", "22", "17", "9", "5", "3", "3"]
+          ];

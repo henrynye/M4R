@@ -1,0 +1,72 @@
+{
+    "event_key": 11924890,
+    "event_date": "2024-02-06",
+    "event_time": "01:00",
+    "event_first_player": "F. Diaz Acosta",
+    "first_player_key": 2002,
+    "event_second_player": "F. A. Gomez",
+    "second_player_key": 717,
+    "event_final_result": "2 - 0",
+    "event_game_result": "-",
+    "event_serve": null,
+    "event_winner": "First Player",
+    "event_status": "Finished",
+    "event_type_type": "Atp Singles",
+    "tournament_name": "ATP Cordoba",
+    "tournament_key": 3107,
+    "tournament_round": "ATP Cordoba - 1/16-finals",
+    "tournament_season": "2024",
+    "event_live": "0",
+    "event_first_player_logo": "https://api.api-tennis.com/logo-tennis/2002_f-diaz-acosta.jpg",
+    "event_second_player_logo": "https://api.api-tennis.com/logo-tennis/717_f-a-gomez.jpg",
+    "event_qualification": "False",
+    "pointbypoint": [
+        {
+            "set_number": "Set 1",
+            "number_game": "1",
+            "player_served": "First Player",
+            "serve_winner": "First Player",
+            "serve_lost": null,
+            "score": "6 - 0",
+            "points": [
+                {
+                    "number_point": "1",
+                    "score": " - ",
+                    "break_point": null,
+                    "set_point": null,
+                    "match_point": null
+                }
+            ]
+        },
+        {
+            "set_number": "Set 1",
+            "number_game": "2",
+            "player_served": "Second Player",
+            "serve_winner": "Second Player",
+            "serve_lost": null,
+            "score": "6 - 1",
+            "points": [
+                {
+                    "number_point": "1",
+                    "score": " - ",
+                    "break_point": null,
+                    "set_point": null,
+                    "match_point": null
+                }
+            ]
+        }
+    ],
+    "scores": [
+        {
+            "score_first": "6",
+            "score_second": "1",
+            "score_set": "1"
+        },
+        {
+            "score_first": "6",
+            "score_second": "4",
+            "score_set": "2"
+        }
+    ],
+    "statistics": []
+}

@@ -1,0 +1,730 @@
+[
+    {
+        "id": "38558",
+        "name": "ATP Almaty",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "38267",
+        "name": "ATP Hangzhou",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "36778",
+        "name": "ATP Bucharest",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "35845",
+        "name": "ATP Hong Kong",
+        "cc": null,
+        "has_leaguetable": 1,
+        "has_toplist": 0
+    },
+    {
+        "id": "33118",
+        "name": "ATP Banja Luka",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "31295",
+        "name": "ATP Naples",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "31231",
+        "name": "ATP Gijon",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "31230",
+        "name": "ATP Florence",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "31206",
+        "name": "ATP Astana",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "31109",
+        "name": "ATP Tel Aviv",
+        "cc": "il",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "31095",
+        "name": "ATP Seoul",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "28811",
+        "name": "ATP Dallas",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "28563",
+        "name": "ATP Adelaide 2",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "28513",
+        "name": "ATP Melbourne",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "27354",
+        "name": "ATP San Diego",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "26144",
+        "name": "ATP Mallorca",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "25909",
+        "name": "ATP Parma",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "25610",
+        "name": "ATP Belgrade",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "25468",
+        "name": "ATP Cagliari",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "25466",
+        "name": "ATP Marbella",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "25076",
+        "name": "ATP Singapore",
+        "cc": "sg",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "24987",
+        "name": "ATP Great Ocean Road Open",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "24986",
+        "name": "ATP Murray River Open",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "24374",
+        "name": "ATP Nur-Sultan",
+        "cc": "sd",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "24330",
+        "name": "ATP Cologne 2",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "24291",
+        "name": "ATP Sardinia",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "24289",
+        "name": "ATP Cologne",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "22255",
+        "name": "ATP Santiago",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "21750",
+        "name": "ATP Adelaide",
+        "cc": null,
+        "has_leaguetable": 1,
+        "has_toplist": 0
+    },
+    {
+        "id": "21657",
+        "name": "ATP Cup",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "18732",
+        "name": "ATP Zhuhai",
+        "cc": "cn",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "16663",
+        "name": "ATP Hertogenbosch",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "16662",
+        "name": "ATP Stuttgart",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "16055",
+        "name": "ATP Lyon",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "15850",
+        "name": "ATP Rome",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "15193",
+        "name": "ATP Monte Carlo",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "13995",
+        "name": "ATP Cordoba",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "13657",
+        "name": "Australian Open",
+        "cc": "au",
+        "has_leaguetable": 1,
+        "has_toplist": 0
+    },
+    {
+        "id": "13626",
+        "name": "ATP Sydney",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "13625",
+        "name": "ATP Auckland",
+        "cc": null,
+        "has_leaguetable": 1,
+        "has_toplist": 0
+    },
+    {
+        "id": "13575",
+        "name": "ATP Doha",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "13574",
+        "name": "ATP Pune",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "13568",
+        "name": "ATP Brisbane",
+        "cc": "au",
+        "has_leaguetable": 1,
+        "has_toplist": 0
+    },
+    {
+        "id": "12769",
+        "name": "ATP Paris",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12673",
+        "name": "ATP Basel",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12672",
+        "name": "ATP Vienna",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12602",
+        "name": "ATP Antwerp",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12601",
+        "name": "ATP Stockholm",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12585",
+        "name": "ATP Moscow",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12477",
+        "name": "ATP Shanghai",
+        "cc": "cn",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12361",
+        "name": "ATP Beijing",
+        "cc": "cn",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12360",
+        "name": "ATP Tokyo",
+        "cc": "jp",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12254",
+        "name": "ATP Shenzhen",
+        "cc": "cn",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12252",
+        "name": "ATP Chengdu",
+        "cc": "cn",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12174",
+        "name": "ATP St Petersburg",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "12173",
+        "name": "ATP Metz",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11881",
+        "name": "US Open",
+        "cc": "us",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11821",
+        "name": "ATP Winston-Salem",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11732",
+        "name": "ATP Cincinnati",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11668",
+        "name": "ATP Toronto",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11557",
+        "name": "ATP Los Cabos",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11552",
+        "name": "ATP Washington",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11422",
+        "name": "ATP Atlanta",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11388",
+        "name": "ATP Hamburg",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11387",
+        "name": "ATP Gstaad",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11295",
+        "name": "ATP Newport",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11274",
+        "name": "ATP Bastad",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "11071",
+        "name": "Wimbledon",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "10960",
+        "name": "ATP Eastbourne",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "10941",
+        "name": "ATP Antalya",
+        "cc": "tr",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "10844",
+        "name": "ATP Queens",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "10840",
+        "name": "ATP Halle",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "10482",
+        "name": "French Open",
+        "cc": "fr",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "10360",
+        "name": "ATP Geneva",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "10042",
+        "name": "ATP Madrid",
+        "cc": "es",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "9935",
+        "name": "ATP Estoril",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "9931",
+        "name": "ATP Munich",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "9737",
+        "name": "ATP Barcelona",
+        "cc": "es",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "9736",
+        "name": "ATP Budapest",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "9388",
+        "name": "ATP Houston",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "9384",
+        "name": "ATP Marrakech",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "9194",
+        "name": "ATP Miami",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8998",
+        "name": "ATP Indian Wells",
+        "cc": "in",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8881",
+        "name": "ATP Acapulco",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8873",
+        "name": "ATP Sao Paulo",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8859",
+        "name": "ATP Dubai",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8789",
+        "name": "ATP Rio De Janeiro",
+        "cc": "br",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8788",
+        "name": "ATP Delray Beach",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8780",
+        "name": "ATP Marseille",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8721",
+        "name": "ATP New York",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8719",
+        "name": "ATP Buenos Aires",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8716",
+        "name": "ATP Rotterdam",
+        "cc": "nl",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8641",
+        "name": "ATP Montpellier",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "8634",
+        "name": "ATP Sofia",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "7883",
+        "name": "ATP World Tour Finals",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "7768",
+        "name": "ATP Next Gen Finals 8th spot",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "6353",
+        "name": "ATP Montreal",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "6221",
+        "name": "ATP Kitzbuhel",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "6017",
+        "name": "ATP Umag",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "5402",
+        "name": "ATP Den Bosch",
+        "cc": "nl",
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "4782",
+        "name": "ATP Istanbul",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "3785",
+        "name": "ATP Memphis",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "3689",
+        "name": "ATP Quito",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    },
+    {
+        "id": "3231",
+        "name": "ATP Chennai",
+        "cc": null,
+        "has_leaguetable": 0,
+        "has_toplist": 0
+    }
+]

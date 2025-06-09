@@ -1,0 +1,193 @@
+var navbar = `<table width=100% style="border-collapse: collapse;">
+<tr style="background-color: #f5f8f8";>
+<td colspan=3 class="headline">
+<h1 class="siteheader"><span class="blackheader">
+<a href="https://www.tennisabstract.com">&nbsp;tennis<span style="color: blue">abstract</span>.com</span></h1></td>
+
+<td colspan=4 style="vertical-align: bottom; margin-bottom: 5px; padding-bottom: 10px;"><span class="blogtext">&nbsp;&nbsp;<i>Latest blog post:</i> <a href="https://www.tennisabstract.com/blog/2025/01/31/monthly-roundup-1-january-2025/">Monthly Roundup #1: January 2025</a></span></td>
+
+</tr>
+
+<tr>
+<td class="navbar" width=180px>  <div class="dropdown">
+    <button class="dropbtn">Players 
+      <i class="fa fa-caret-down"></i>
+    </button>
+  <div class="dropdown-content dropdown-table">
+    <table>
+      <tr>
+        <td><span class="dropdown-item">Women:</span></td>
+        <td><span class="dropdown-item">Men:</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=ArynaSabalenka">Aryna Sabalenka</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/player.cgi?p=JannikSinner">Jannik Sinner</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=IgaSwiatek">Iga Swiatek</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/player.cgi?p=AlexanderZverev">Alexander Zverev</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=CocoGauff">Coco Gauff</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/player.cgi?p=CarlosAlcaraz">Carlos Alcaraz</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=JasminePaolini">Jasmine Paolini</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/player.cgi?p=TaylorFritz">Taylor Fritz</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=ElenaRybakina">Elena Rybakina</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/player.cgi?p=CasperRuud">Casper Ruud</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=DaphneAkhurst">Daphne Akhurst</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/player.cgi?p=JimmyConnors">Jimmy Connors</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=ChrisEvert">Chris Evert</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/player.cgi?p=RafaelNadal">Rafael Nadal</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=HelenWills">Helen Wills</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/player.cgi?p=MatsWilander">Mats Wilander</a></td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</td>
+
+<td class="navbar" width=180px>  <div class="dropdown">
+    <button class="dropbtn">Rankings 
+      <i class="fa fa-caret-down"></i>
+    </button>
+  <div class="dropdown-content dropdown-table">
+    <table>
+      <tr>
+        <td><span class="dropdown-item">Women:</span></td>
+        <td><span class="dropdown-item">Men:</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/wta_elo_ratings.html">WTA Elo Leaders</a></td>
+        <td><a href="https://tennisabstract.com/reports/atp_elo_ratings.html">ATP Elo Leaders</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/wta_season_yelo_ratings.html">WTA yElo Leaders</a></td>
+        <td><a href="https://tennisabstract.com/reports/atp_season_yelo_ratings.html">ATP yElo Leaders</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/wtaRankings.html">WTA Rankings</a></td>
+        <td><a href="https://tennisabstract.com/reports/atpRankings.html">ATP Rankings</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/rankingsByAgeWta.html">WTA Rankings by Age</a></td>
+        <td><a href="https://tennisabstract.com/reports/rankingsByAge.html">ATP Rankings by Age</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/wta_ranking_milestones.html">WTA Ranking Milestones</a></td>
+        <td><a href="https://tennisabstract.com/reports/atp_ranking_milestones.html">ATP Ranking Milestones</a></td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</td>
+
+<td class="navbar" width=180px>  <div class="dropdown">
+    <button class="dropbtn">Leaderboards 
+      <i class="fa fa-caret-down"></i>
+    </button>
+  <div class="dropdown-content dropdown-table">
+    <table>
+      <tr>
+        <td><span class="dropdown-item">Women:</span></td>
+        <td><span class="dropdown-item">Men:</span></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/leaders_wta.cgi">WTA Stats Leaderboard</a></td>
+        <td><a href="https://www.tennisabstract.com/cgi-bin/leaders.cgi">ATP Stats Leaderboard</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/h2hMatrixWta.html">WTA H2H Matrix</a></td>
+        <td><a href="https://tennisabstract.com/reports/h2hMatrix.html">ATP H2H Matrix</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/WTA_BestWhoHavent.html">WTA Best Who Haven't...</a></td>
+        <td><a href="https://tennisabstract.com/reports/ATP_BestWhoHavent.html">ATP Best Who Haven't...</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/winners_errors_leaders_women_last52.html">Winners and Errors</a></td>
+        <td><a href="https://tennisabstract.com/reports/winners_errors_leaders_men_last52.html">Winners and Errors</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/mcp_leaders_serve_women_last52.html">MCP Stats: Serve</a></td>
+        <td><a href="https://tennisabstract.com/reports/mcp_leaders_serve_men_last52.html">MCP Stats: Serve</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/mcp_leaders_return_women_last52.html">MCP Stats: Return</a></td>
+        <td><a href="https://tennisabstract.com/reports/mcp_leaders_return_men_last52.html">MCP Stats: Return</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/mcp_leaders_rally_women_last52.html">MCP Stats: Rally</a></td>
+        <td><a href="https://tennisabstract.com/reports/mcp_leaders_rally_men_last52.html">MCP Stats: Rally</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://tennisabstract.com/reports/mcp_leaders_tactics_women_last52.html">MCP Stats: Tactics</a></td>
+        <td><a href="https://tennisabstract.com/reports/mcp_leaders_tactics_men_last52.html">MCP Stats: Tactics</a></td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</td>
+
+<td class="navbar" width=180px>  <div class="dropdown">
+    <button class="dropbtn">Blog 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <span class="dropdown-item">Latest posts:</span>
+      <a href="https://www.tennisabstract.com/blog/2025/01/31/monthly-roundup-1-january-2025/">Monthly Roundup #1: January 2025</a>
+      <a href="https://www.tennisabstract.com/blog/2025/01/28/the-locked-down-serve-of-jannik-sinner/">The Locked-Down Serve of Jannik Sinner</a>
+      <a href="https://www.tennisabstract.com/blog/2025/01/24/trivia-notebook-2-slam-winning-nations-and-fifth-set-momentum/">Trivia Notebook #2: Slam-Winning Nations and Fifth-Set Momentum</a>
+      <span class="dropdown-item">More:</span>
+      <a href="https://www.tennisabstract.com/blog/2022/02/01/introducing-the-tennis-128/">The Tennis 128</a>
+      <a href="https://www.tennisabstract.com/blog/2023/03/28/battles-boycotts-and-breakouts-1973-redux/">1973 Redux</a>  
+      <a href="https://tennisabstract.com/blog/">Blog home</a>    
+    </div>
+  </div>
+</td>
+
+<td class="navbar" width=180px>  <div class="dropdown">
+    <button class="dropbtn">Tournaments
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.tennisabstract.com/current/2025WTALinz.html">WTA Linz</a>
+      <a href="https://www.tennisabstract.com/current/2025WTASingapore.html">WTA Singapore</a>
+      <a href="https://www.tennisabstract.com/current/2025ATPMontpellier.html">ATP Montpellier</a>
+      <a href="https://www.tennisabstract.com/current/2025Brisbane1Challenger.html">Brisbane 1 Challenger</a>
+      <a href="https://www.tennisabstract.com/current/2025ClevelandChallenger.html">Cleveland Challenger</a>
+      <a href="https://www.tennisabstract.com/current/2025KoblenzChallenger.html">Koblenz Challenger</a>
+      <a href="https://www.tennisabstract.com/current/2025PiracicabaChallenger.html">Piracicaba Challenger</a>
+    </div>
+  </div>
+</td>
+
+<td class="navbar" width=160px>  <div class="dropdown">
+    <button class="dropbtn">Charting Project 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.tennisabstract.com/charting/recent.html">Recent Additions</a>
+      <a href="https://www.tennisabstract.com/charting/meta.html">Complete List</a>
+      <a href="https://www.tennisabstract.com/charting/slamfinals.html">Slam Finals</a>
+      <a href="https://www.tennisabstract.com/blog/2015/09/23/the-match-charting-project-quick-start-guide/">Quick Start Guide</a>
+    </div>
+  </div>
+</td>
+
+<td id="playersearch" class="navbar" width=180px>&nbsp;</td>
+</tr>
+<tr>
+<td colspan=2>&nbsp;</td>
+<td colspan=4>&nbsp;</td>
+<td>&nbsp;</td>
+</table>`;
