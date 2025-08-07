@@ -1,12 +1,13 @@
 import json
 import pandas as pd
+import numpy as np
 import os
 from bs4 import BeautifulSoup
 import re
 from tqdm import tqdm
 
 ta_root_dir = 'tennis_abstract'
-ta_df_dir = 'tennis_abstract_dfs'
+ta_df_dir = 'tennis_abstract_dfs_extended'
 matchhead_verbose = ["date","tourn","surf","level","win/loss","rank","seed","entry","round",
                  "score","max_num_of_sets","opp","orank","oseed","oentry","ohand","obday",
                  "oheight","ocountry","oactive","time_minutes","aces","dfs","service_pts","first_serves_in","first_serves_won",
@@ -16,7 +17,12 @@ matchhead_verbose = ["date","tourn","surf","level","win/loss","rank","seed","ent
 
 def gen_df(name):
     html_path = f'{ta_root_dir}/{name}.html'
-    assert os.path.exists(html_path)
+    if not os.path.exists(html_path):
+        print(f"HTML file for {name} does not exist. Skipping.")
+        return
+    
+    if os.path.exists(f'{ta_df_dir}/{name}.pkl'):
+        return
     with open(html_path, 'r') as file:
         html_content = file.read()
     soup = BeautifulSoup(html_content, "html.parser")
@@ -30,14 +36,15 @@ def gen_df(name):
                 ochoices_str = match.group(1)
                 # Convert the JavaScript array/object to a Python object
                 matchmx = eval(ochoices_str)
-    assert matchmx is not None
-    if len(matchmx[0])== 47:
-        matchmx = [m+[''] for m in matchmx]
-    try:
-        match_df = pd.DataFrame(matchmx, columns=matchhead_verbose)
-    except Exception as e:
-        breakpoint()
-    return match_df
+    if matchmx is not None:
+        if len(matchmx[0])== 47:
+            matchmx = [m+[''] for m in matchmx]
+        try:
+            match_df = pd.DataFrame(matchmx, columns=matchhead_verbose)
+            match_df.to_pickle(f'{ta_df_dir}/{name}.pkl')
+        except Exception as e:
+            breakpoint()
+            print(f"Error processing {name}: {e}")
 
 # name = 'CarlosAlcaraz'
 # alcaraz_html_path = f'{ta_root_dir}/{name}.html'
@@ -55,18 +62,18 @@ def gen_df(name):
 #             # Convert the JavaScript array/object to a Python object
 #             ochoices = eval(ochoices_str)
 top_150_names = []
-for file in tqdm(os.listdir(ta_df_dir)):
-    name = file[:-4]
-    file_name = f'{ta_df_dir}/{file}'
-    p_df = pd.read_pickle(f'{ta_df_dir}/{file}')
-    latest_rank = p_df['rank'].iloc[-1]
-    if latest_rank:
-        latest_rank = int(latest_rank)
-        if latest_rank < 150:
-            top_150_names.append(name)
-# ta_names = [v.replace(' ', '') for v in ochoices]
-for name in tqdm(top_150_names):
-    df = gen_df(name)
-    df.to_pickle(f'{ta_df_dir}/{name}.pkl')
+for file in tqdm(os.listdir(ta_root_dir)):
+    name = file[:-5]
+    gen_df(name)
+    
+num_matches = []
+for name in tqdm(os.listdir(ta_df_dir)):
+    df = pd.read_pickle(f'{ta_df_dir}/{name}')
+    # Filter rows where 'first_serves_won' can be converted to int and is > 0
+    mask = pd.to_numeric(df['first_serves_won'], errors='coerce').fillna(0).astype(int) > 0
+    num_matches.append(df[mask].shape[0])
+num_matches = np.array(num_matches)
+num_matches.mean()
+    
 
 
